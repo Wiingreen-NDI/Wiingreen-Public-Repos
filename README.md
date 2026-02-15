@@ -1,7 +1,11 @@
 # Wiingreen-Public-Repos
 Wiingreen-Public-Repos public repo and solution repository
 
-**Intune**
+## Repo Structure
 
+- **Intune**
+
+    Scripts focusing on device management, spp deployment, complex monitoring, and automation
+    
 
  
