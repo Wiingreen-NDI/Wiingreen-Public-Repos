@@ -8,3 +8,7 @@ if ($cert) {
 } else {
     Write-host "No Intune cert found."
 } 
+
+$subject = (($cert | Select-Object Subject).Subject).TrimStart("CN=")
+
+Write-Host "$subject is the cert subject"
